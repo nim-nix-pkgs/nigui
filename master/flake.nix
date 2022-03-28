@@ -11,6 +11,7 @@
   inputs.src-nigui-master.ref   = "refs/heads/master";
   inputs.src-nigui-master.owner = "trustable-code";
   inputs.src-nigui-master.repo  = "NiGui";
+  inputs.src-nigui-master.dir   = "";
   inputs.src-nigui-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
