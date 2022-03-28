@@ -11,7 +11,6 @@
   inputs.src-nigui-v0_2_3.ref   = "refs/tags/v0.2.3";
   inputs.src-nigui-v0_2_3.owner = "trustable-code";
   inputs.src-nigui-v0_2_3.repo  = "NiGui";
-  inputs.src-nigui-v0_2_3.dir   = "";
   inputs.src-nigui-v0_2_3.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
