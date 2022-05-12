@@ -36,10 +36,10 @@
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "src-nigui-master": "src-nigui-master"
+        "src-nigui-v0_2_6": "src-nigui-v0_2_6"
       }
     },
-    "src-nigui-master": {
+    "src-nigui-v0_2_6": {
       "flake": false,
       "locked": {
         "lastModified": 1652103164,
@@ -51,7 +51,7 @@
       },
       "original": {
         "owner": "trustable-code",
-        "ref": "refs/heads/master",
+        "ref": "refs/tags/v0.2.6",
         "repo": "NiGui",
         "type": "github"
       }
